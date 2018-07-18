@@ -9,7 +9,7 @@ CREATE TABLE products(
   department_name VARCHAR(40) NOT NULL,
   price INT default 0,
   stock_quantity INT default 0,
-  PRIMARY KEY (id)
+  PRIMARY KEY (item_id)
 );
 
 SELECT * FROM products; 
@@ -29,3 +29,17 @@ VALUES ("Shirts", "Clothing", "20.00", "100");
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Laptop", "Computer", "500.00", "70");
 
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Chairs", "Furniture", "200.00", "30");
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Rug", "Carpet", "75.00", "10");
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Fryer", "Cookware", "100.00", "8");
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Hats", "Headwear", "35.00", "12");
+
+INSERT INTO products (product_name, department_name, price, stock_quantity)
+VALUES ("Watch", "Accessories", "80.00", "6");
