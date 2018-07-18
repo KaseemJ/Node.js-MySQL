@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/KaseemJ/Node.js-MySQL#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^6.0.0",
     "mysql": "^2.15.0"
   }
 }
